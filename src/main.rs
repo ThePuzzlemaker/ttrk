@@ -29,7 +29,7 @@ struct Cli {
     /// The JSON log file to output sessions to.
     ///
     /// By default this is located at `~/.ttrk.json`.
-    #[clap(short = 'l', long, parse(from_str))]
+    #[clap(short = 'l', long)]
     logfile: Option<PathBuf>,
 }
 

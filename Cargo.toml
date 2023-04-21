@@ -24,7 +24,7 @@ tempfile = "3.3.0"
 csv = "1.1.6"
 
 [dependencies.clap]
-version = "3.2.6"
+version = "4.2.4"
 features = ["derive"]
 
 [dependencies.time]
