@@ -5,6 +5,9 @@ edition = "2021"
 description = "Track time spent on a project."
 authors = ["ThePuzzlemaker <tpzker@thepuzzlemaker.info>"]
 license = "MIT"
+homepage = "https://github.com/ThePuzzlemaker/ttrk"
+repository = "https://github.com/ThePuzzlemaker/ttrk.git"
+readme = "README.md"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
