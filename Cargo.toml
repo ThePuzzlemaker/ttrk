@@ -1,0 +1,29 @@
+[package]
+name = "ttrk"
+version = "0.1.0"
+edition = "2021"
+description = "Track time spent on a project."
+authors = ["ThePuzzlemaker <tpzker@thepuzzlemaker.info>"]
+license = "MIT"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+color-eyre = "0.6.1"
+serde = { version = "1.0.137", features = ["derive"] }
+serde_json = "1.0.81"
+dirs = "4.0.0"
+tracing = "0.1.35"
+tracing-subscriber = { version = "0.3.11", features = ["env-filter"] }
+regex = "1.5.6"
+once_cell = "1.12.0"
+tempfile = "3.3.0"
+csv = "1.1.6"
+
+[dependencies.clap]
+version = "3.2.6"
+features = ["derive"]
+
+[dependencies.time]
+version = "0.3.11"
+features = ["parsing", "serde", "local-offset", "formatting", "macros", "serde-well-known"]
